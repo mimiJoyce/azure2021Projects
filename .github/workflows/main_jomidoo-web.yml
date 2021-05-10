@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'jomidoo-web'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_c7ec596f3b2f4a4c88415d741388eafd }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_b57ac878de3d4e94b188d8b006b801c5 }}
