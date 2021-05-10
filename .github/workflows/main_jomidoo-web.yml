@@ -20,7 +20,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.8'
+        python-version: '3.7'
 
     - name: Create and start virtual environment
       run: |
@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'jomidoo-web'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_b57ac878de3d4e94b188d8b006b801c5 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_8083888a45274d4fa3dc0eaae222a958 }}
